@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+	
+	<script src="script.js"></script>
+
+    <title>About</title>
+        <style>
+            
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+     .header{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color:rgb(255, 255, 255);
+        background-color: rgb(0, 0, 0);
+        padding-top:5px;
+        padding-left: 17px;
+        padding-right: 17px;
+        padding-bottom: 5px;
+            }
+               </style>
+</head>
+<body style="background-color: rgb(255, 255, 255);">
+    
+
+    
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="Film-Info.html">Film Info</a>
+        <a href="Theme-Info.html">Themes</a>
+        <a href="About.html">About</a>
+        <a href="Contact.html">Contact</a>
+    </div>
+    
+    <button style="font-size:30px;cursor:pointer;float:left;background:none;width:1cm;height:1cm;size: 0.75cm;color:white;border:none;" onclick="openNav()">=</button>
+    
+    <div class= "header">
+      <a href="Index.html">
+        <img src="logo 2.png" style="height:2.25cm;width:4cm;float:right;" alt="Logo">
+        </a>
+    <h2>CinemaScope</h2>
+    <p>About</p>
+    </div>
+    <p style="float:left;width:360px;font-size:0.4cm;">CinemaScope originally started as an event my brother'd host for friends and family. It was an outdoor cinema, which would play whatever film recently came out on blu-ray. We'd have a sheet of white cloth which would have a film projected onto it, a PS3 to play the film and a projector to put the film onto the "screen". This was a yearly thing which then evolved into what CinemaScope is today; A fully-fledged business with hundreds of supporting patrons.</p>
+    <p style="float:right;width:360px;font-size:0.4cm;">We're making sure that nothing we do will lessen a person's experience here at CinemaScope. If you have any complaints, please log one via the contact section. The more criticism we get, the more we can improve our services.</p>
+    
+    <img src="Logo.png" alt="Logo" style="float:center;width:30%;display: block;margin-left: auto;margin-right: auto;">
+    <p style="text-align:center;font-size:0.4cm;"><i>Please</i> bear in mind that we're a small number of staff so in comparison to other cinemas, we may be slightly slower. Thank you for your continued support and help.</p>
+    <br><br><br><br>
+    <hr>
+    <p>Made By NotSureIfBen</p>
+</body>
+</html>

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+	
+	<script src="script.js"></script>
+
+    <title>Film Info</title>
+        <style>
+            * {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+            iframe{
+          margin:0 auto;
+          display:block;
+            } 
+            .header{
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                color:rgb(255, 255, 255);
+                background-color: rgb(0, 0, 0);
+                padding-top:5px;
+                padding-left: 17px;
+                padding-right: 17px;
+                padding-bottom: 5px;
+                   }
+            .background{
+                position: relative;
+                text-align: center;
+                color: black;
+                font-family: Arial, Helvetica, sans-serif;
+                padding:1cm;
+                    }
+            .centered {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            .lower {
+                position: absolute;
+                top: 75%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+            }
+        </style>
+</head>
+<body style="background-color: rgb(255, 255, 255);">
+    
+
+    
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="Film-Info.html">Film Info</a>
+        <a href="Theme-Info.html">Themes</a>
+        <a href="About.html">About</a>
+        <a href="Contact.html">Contact</a>
+    </div>
+    
+    <button style="font-size:30px;cursor:pointer;float:left;background:none;width:1cm;height:1cm;size: 0.75cm;color:white;border:none;" onclick="openNav()">=</button>
+    
+    <div class= "header">
+      <a href="Index.html">
+        <img src="logo 2.png" style="height:2.25cm;width:4cm;float:right;" alt="Logo">
+        </a>
+    <h2>CinemaScope</h2>
+    <p>Film Info</p>
+    </div>
+    <p style="text-align: center;font-size:0.5cm;">Here, you can see up and coming films that'll be hitting theateres when COVID-19 restrictions are lessened.</p>
+    <p style="text-align: center;font-size:0.5cm;"><b>Tenet</b><br>A high octane action film in the same vain as inception with an interesting plot that'll have you wondering 'what just happened?'.<br>4/5 stars<br>~oh <i>that's</i> what a palindrome is.</p>
+    <img src= "Tenet.jpg" alt="Tenet" style="float:right;padding-right:0.5cm;width:8cm;">
+    
+    <br>
+    <iframe width="360" height="345" align="middle" padding-bottom=0px left=40px src="https://www.youtube.com/embed/LdOM0x0XDMo">
+    </iframe>
+    
+    <p style="text-align: center;font-size:0.5cm;"><b>Trolls</b><br>A not very good film for kids. If you want to torture your babysitter, send them with your kids to see this.<br>1/5 stars<br>~Please don't.</p>
+    <img src= "trolls-disneyscreencaps.com-1277.jpg" alt="Trolls" style="float:right;padding-right:0.5cm;width:8cm;">
+    
+    <br>
+    <iframe width="360" height="345" align="middle" padding-bottom=0px left=40px src="https://www.youtube.com/embed/xyjm5VQ11TQ">
+    </iframe>
+
+    <p style="text-align: center;font-size:0.5cm;"><b>The Rise of Skywalker</b><br>The final film in the main-line star wars series. People seem very divided on it. You'll have to take a look yourself to make up your own opinion.<br>3/5 wars<br>~It's not that bad, I swear.</p>
+    <img src= "4k-swrise-starwarsscreencaps.com-1480.jpg" alt="Trolls" style="float:right;padding-right:0.5cm;width:8cm;">
+    <br>
+    <iframe width="360" height="345" align="middle" padding-bottom=0px left=40px src="https://www.youtube.com/embed/8Qn_spdM5Zg">
+    </iframe>
+      <p style="text-align:center;">If you can't decide what to watch, you can give us a call and we can help you decide what you could watch. If you bring in a dvd or select a film from our selection of films, we can set aside a private mini-cinema room for £10 a head.</p>
+    <hr>
+      <p>>Made By NotSureIfBen</p>    
+</body>
+</html>
